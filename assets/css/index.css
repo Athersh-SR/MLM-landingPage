@@ -27,7 +27,6 @@
 	width: 100%;
 	height: auto;
 	max-width: 200px;
-
 	transition: max-width .25s, padding .25s;
 }
 
@@ -112,7 +111,7 @@ ul.top_nav li:last-child a {
 
 .hero-section {
 	/* background-image: url(../images/networking-concept-still-life-assortment.jpg); */
-	background-image: url(../images/business-growth.jpg);
+	background-image:url(../images/business-growth-webp.jpg);
 	/* background-image: url(../images/high-angle-colorful-pawns-arrangement.jpg); */
 	background-size: cover;
 	background-position: center;
@@ -156,11 +155,11 @@ ul.top_nav li:last-child a {
 }
 .flip-card {
     background-color: transparent;
-    width: 100%; /* Full width of container */
-    max-width: 220px; /* Prevents growing too much on desktop */
+    width: 100%; 
+    max-width: 220px;
     height: 300px;
     perspective: 1000px;
-    margin: 20px auto; /* Add margin between cards */
+    margin: 20px auto;
     font-family: 'Poppins', 'Montserrat', sans-serif;
 }
 
@@ -184,7 +183,7 @@ ul.top_nav li:last-child a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;  /* Fully responsive */
+    width: 100%; 
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
