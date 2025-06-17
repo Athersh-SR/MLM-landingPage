@@ -111,8 +111,9 @@ ul.top_nav li:last-child a {
 
 .hero-section {
 	/* background-image: url(../images/networking-concept-still-life-assortment.jpg); */
-	background-image:url(../images/business-growth-webp.jpg);
+	/* background-image:url(../images/business-growth-webp.jpg); */
 	/* background-image: url(../images/high-angle-colorful-pawns-arrangement.jpg); */
+	background-image:url(../images/hero-img.jpeg);
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
