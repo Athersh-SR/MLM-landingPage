@@ -6,6 +6,7 @@
             navbar.classList.remove('compressed');
         }
     });
+    
 function animateCounter(counter) {
   const target = +counter.getAttribute("data-target");
   let current = 0;
@@ -18,7 +19,7 @@ function animateCounter(counter) {
       counter.innerText = Math.ceil(current);
       requestAnimationFrame(update);
     } else {
-      counter.innerText = target;
+      counter.innerText = target + "+";
     }
   }
 
