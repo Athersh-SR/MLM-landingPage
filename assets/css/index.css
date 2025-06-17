@@ -96,9 +96,11 @@ ul.top_nav li:last-child a {
 	color: white;
 	background-color: cadetblue;
 	padding: 12px 50px;
-	transition: background-color .25s, padding .25s;
+	transition: background-color .25s, padding .25s,opacity .25s;
 }
-
+ul.top_nav li:last-child a:hover{
+	opacity: 0.7;
+}
 .igo_or_sub_top_nav {
 	background-color: #0e92cf;
 }
