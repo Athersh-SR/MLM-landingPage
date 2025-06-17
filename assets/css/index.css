@@ -280,5 +280,14 @@ footer .heading {
 	.Compensation-title {
 		font-size: 35px !important;
 	}
-
+}
+.Our__achievements {
+	margin: 92px 0px;
+}
+.Our__achievements .stat{
+    font-size: 45px;
+	font-family: 'Poppins', 'Montserrat', sans-serif;
+}
+.Our__achievements .text-muted{
+	font-family: sans-serif;
 }
